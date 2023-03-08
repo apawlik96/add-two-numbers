@@ -1,8 +1,8 @@
 function addTwoNumbers(arrayOne, arrayTwo) {
-    return conversionArrayToNumb(arrayOne)
-    // return conversionArrayToNumb(arrayTwo)
-    // var sum = arrayOne + arrayTwo
-    // return sum 
+    const numbOne = conversionArrayToNumb(arrayOne)
+    const numbTwo = conversionArrayToNumb(arrayTwo)
+    var sum = numbOne + numbTwo
+    return sum 
 }
 
 function conversionArrayToNumb(array){
